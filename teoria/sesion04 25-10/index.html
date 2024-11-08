@@ -4,74 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lamborghini</title>
+    <!--Añadir tipo de fuente-->
     <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Añadir otro tipo de fuente-->
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Meie+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Meie+Script&display=swap" rel="stylesheet">
 
     <style>
-
+        /*Cambia la altura del contenido body */
         body{
             height: 100vh;
             
         }
 
-
+        /*<Menu de navegacion*/
 
         nav{
+            /*cambiar color de fondo */
             background-color: whitesmoke;
+            /*crea el espacio o área alrededor del contenido de un elemento. */
             padding: 40px;
+
+            /*tamaño de la letra */
             font-size: 20px; 
+
+            /*tipo de la letra */
             font-family: "Afacad Flux";
         }
+        /*CSS de lista desordenada */
             ul{
+                /*indica la capacidad de un elemento flexible para alterar sus dimensiones y llenar el espacio disponible.*/
                 display: flex; 
+
+                /* espacio entre filas y columnas*/
                 gap: 50px;
+                /*permite configurar todas las propiedades de estilo de lista a la vez.*/
                 list-style: none;}
 
+
+                /* CSS en todo el header*/
                 header{
+                    /* imagen de fondo */
                     background-image:url("https://i.pinimg.com/originals/b1/22/59/b12259690a81d10422288d253119811a.jpg") ;
+
+                    /* Alinear texto*/
                     text-align: center;
+                   /* establece el tamaño de la imagen de fondo del elemento*/
                     background-size: cover;
+
+                    /*especifica la altura de un elemento.*/
                     height: 90%;
+
+                    /*establece el espacio de relleno requerido en la parte superior del elemento.*/
                     padding-top: 150px;
                     
                 }
+
+                /*CSS imagen de fondo con class.*/
         .imglambo{
+            /*Modifica el ancho .*/
             width: 400px;
         }
+        /*CSS en el titulo h1 del header*/
             header h1{
+                 /*cambia el color*/
                 color: whitesmoke;
                 font-size: 50px;
                 padding: 10px;
                 font-family: "Meie Script"; 
             }
+            /*CSS en el titulo h2 del header*/
             header h2{
                 color: whitesmoke;
                 font-size: 30px;
+                /*especifica cómo poner en mayúscula el texto de un elemento*/
                 text-transform: uppercase;
+                /*establece el grosor (o negrita) de la fuente. */
                 font-weight: normal;
                 padding-top: 10px;
+                /*establece el espacio de relleno requerido en la parte inferior del boton*/
                 padding-bottom: 20px;
                 font-family: "Afacad Flux";
             }
+              /*css en el boton del header */
             
                 header button{
                         padding: 20px;
                         background-color: goldenrod;
+                          /*Modifica el borde */
                         border: 0 ;
                         border-radius: 5px;
                     font-family: "Afacad Flux";}
+
+                      /*El * modifica todo el html  */
                         *{
                             padding: 0;
+                           /* establece el margen para los cuatro lados. */
                             margin: 0;
                         }
-
-                
-
-
 
     </style>
 
@@ -80,7 +114,7 @@
 
 </head>
 <body>
-    
+    <!-- NAV representa una sección de una página cuyo propósito es proporcionar enlaces de navegación(menu de navegacion)-->
         <nav>
             <ul>
                 <li>Nuestros coches</li>
@@ -89,18 +123,24 @@
                 <li>Contactanos</li>
             </ul>
 
-
         </nav>
-
+       <!--Header representa contenido introductorio--> 
     <header>
+
         <img class="imglambo" src="https://fbi.cults3d.com/uploaders/29182030/illustration-file/3d68fb36-b229-4c1e-a621-09d24aaa6476/lamborghini-logo-lamborghini-bull-logo-19.png" alt="imagen portada"> 
         <h1>Welcome to motor paradise</h1>
         <h2>You can't hide who you are</h2>
+
+         <!--Crea un boton--> 
         <button>CLICA AQUI</button>
 
 
     </header>
+
+    <!--representa el contenido principal del <body> de un documento o aplicación-->
     <main></main>
+
+    <!-- Pie de pagina-->
     <footer></footer>
 </body>
 </html>
