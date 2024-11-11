@@ -1,0 +1,15 @@
+.t1 {
+   font-family: "Doto"   ;
+}
+
+.main {
+    height: 50%;
+    width: 50%;
+    background-color: brown;
+    padding: 50px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw; 
+    background-color: aquamarine; }
